@@ -1,0 +1,17 @@
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+    class Practica {
+    public static class TestClass {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Введите первое большое число: ");
+            BigInteger a = new BigInteger(scanner.next());
+            System.out.println("Введите второе большое число: ");
+            BigInteger a1 = new BigInteger(scanner.next());
+            BigInteger sum = a.add(a1);
+            System.out.println("Сумма чисел: " + sum);
+        }
+    }
+}
